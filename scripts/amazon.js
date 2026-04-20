@@ -44,7 +44,7 @@ products.forEach((product) => {
       </div>
 
       ${product.extraInfoHTML()}
-      
+
       <div class="product-spacer"></div>
 
       <div class="added-to-cart">
@@ -63,7 +63,7 @@ products.forEach((product) => {
 
 });
 
-console.log(productsHTML);
+// console.log(productsHTML);
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
